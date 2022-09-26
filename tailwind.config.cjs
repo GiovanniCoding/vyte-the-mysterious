@@ -5,7 +5,8 @@ module.exports = {
   content: ['./src/**/*.{html,js,jsx}'],
   theme: {
     screens: {
-      'mobile': {'max': '640px'}
+      'mobile': {'max': '640px'},
+      'desktop': {'min': '640px'}
     },
     extend: {},
     colors: {
