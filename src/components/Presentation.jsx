@@ -1,5 +1,6 @@
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import profile from "../assets/profile-image.jpeg"
+import Typical from 'react-typical'
 
 export const Presentation = () => {
   return (
