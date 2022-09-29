@@ -30,6 +30,8 @@ export const Presentation = ( { home } ) => {
             'Data Science Specialist', 1000,
             '', 500,
             'Python Developer Expert', 1000,
+            '', 500,
+            'Board Games Lover (and Expert)', 1000,
           ]}
           loop={Infinity}
           wrapper='p'
