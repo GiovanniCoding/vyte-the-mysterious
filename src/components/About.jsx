@@ -1,4 +1,42 @@
 import profile from "../assets/profile-image.jpeg"
+import {
+  SiPython,
+  SiNumpy,
+  SiPandas,
+  SiScikitlearn,
+  SiKeras,
+  SiTensorflow,
+  SiPytorch,
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiReact,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiAmazonaws,
+  SiGooglecloud,
+  SiKubernetes,
+  SiDocker,
+  SiGithub,
+  SiLinux,
+  SiGoland,
+  SiPostgresql,
+  SiMongodb,
+  SiAmazondynamodb,
+  SiFastapi,
+  SiDjango,
+  SiFlask,
+  SiFirebase,
+  SiSass,
+  SiGnubash,
+  SiMariadb,
+  SiJupyter,
+  SiSlack,
+  SiMicrosoftteams,
+} from 'react-icons/si';
+import { RiGitlabFill } from 'react-icons/ri';
+import { AiOutlineConsoleSql } from 'react-icons/ai';
+import { GrMysql } from 'react-icons/gr';
 
 export const About = () => {
   return (
@@ -42,8 +80,53 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <div>
-        Hi
+      <div className="flex flex-col mt-2 gap-1">
+        <div className="flex justify-center gap-16 my-4">
+          <SiPython className="text-[4rem] text-primary" />
+          <SiNumpy className="text-[4rem] text-primary" />
+          <SiPandas className="text-[4rem] text-primary" />
+          <SiTensorflow className="text-[4rem] text-primary" />
+          <SiDocker className="text-[4rem] text-primary" />
+          <SiAmazonaws className="text-[4rem] text-primary" />
+          <SiGithub className="text-[4rem] text-primary" />
+        </div>
+        <div className="flex justify-center gap-16 my-4">
+          <SiKeras className="text-[3rem] text-primary" />
+          <SiPytorch className="text-[3rem] text-primary" />
+          <SiJavascript className="text-[3rem] text-primary" />
+          <SiScikitlearn className="text-[3rem] text-primary" />
+          <SiGooglecloud className="text-[3rem] text-primary" />
+          <SiKubernetes className="text-[3rem] text-primary" />
+          <AiOutlineConsoleSql className="text-[3rem] text-primary" />
+        </div>
+        <div className="flex justify-center gap-16 my-4">
+          <SiAmazondynamodb className="text-[2.5rem] text-primary" />
+          <SiFastapi className="text-[2.5rem] text-primary" />
+          <SiJupyter className="text-[2.5rem] text-primary" />
+          <SiHtml5 className="text-[2.5rem] text-primary" />
+          <RiGitlabFill className="text-[2.5rem] text-primary" />
+          <SiPostgresql className="text-[2.5rem] text-primary" />
+          <SiMongodb className="text-[2.5rem] text-primary" />
+        </div>
+        <div className="flex justify-center gap-16 my-4">
+          <SiLinux className="text-[2rem] text-primary" />
+          <SiDjango className="text-[2rem] text-primary" />
+          <SiGoland className="text-[2rem] text-primary" />
+          <SiReact className="text-[2rem] text-primary" />
+          <SiFlask className="text-[2rem] text-primary" />
+          <GrMysql className="text-[2rem] text-primary" />
+          <SiTailwindcss className="text-[2rem] text-primary" />
+        </div>
+        <div className="flex justify-center gap-16 my-4">
+          <SiNodedotjs className="text-[1.5rem] text-primary" />
+          <SiSlack className="text-[1.5rem] text-primary" />
+          <SiCss3 className="text-[1.5rem] text-primary" />
+          <SiFirebase className="text-[1.5rem] text-primary" />
+          <SiSass className="text-[1.5rem] text-primary" />
+          <SiGnubash className="text-[1.5rem] text-primary" />
+          <SiMariadb className="text-[1.5rem] text-primary" />
+          {/* <SiMicrosoftteams className="text-[1.5rem]" /> */}
+        </div>
       </div>
     </div>
   )

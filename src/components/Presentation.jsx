@@ -19,8 +19,8 @@ export const Presentation = ( { home } ) => {
           className='w-28 p-1 mb-4 rounded-full ring-2 ring-tprimary'
         />
         <h1 className="mb-1 text-3xl">Giovanni Vargas</h1>
-        {/* <h2>Machine Learning Developer</h2> */}
-        <Typical
+        <h2>Machine Learning Developer</h2>
+        {/* <Typical
           steps={[
             '', 500,
             'Machine Learning Developer', 1000,
@@ -35,7 +35,7 @@ export const Presentation = ( { home } ) => {
           ]}
           loop={Infinity}
           wrapper='p'
-        />
+        /> */}
         <div className='flex text-2xl w-24 mt-4 justify-around'>
           <AiFillGithub
             className='hover:text-[#f97b8b] cursor-pointer'
