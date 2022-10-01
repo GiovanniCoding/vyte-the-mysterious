@@ -1,5 +1,8 @@
 import { TbRobot } from 'react-icons/tb';
-import {RiMenu3Line} from 'react-icons/ri'
+import { RiMenu3Line } from 'react-icons/ri'
+import { AiFillExperiment } from 'react-icons/ai'
+import { AiFillRocket } from 'react-icons/ai'
+import { AiOutlineCode } from 'react-icons/ai'
 import { useState } from 'react';
 
 export const Navbar = ( ) => {
@@ -12,7 +15,10 @@ export const Navbar = ( ) => {
   return (
     <header className='fixed h-[70px] inset-0 bg-primary text-tprimary border-b-[1px] border-primaryl1'>
       <nav className='flex justify-between center max-w-[900px] mx-auto mt-2'>
-        <TbRobot className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' />
+        {/* <TbRobot className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
+        {/* <AiFillExperiment className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
+        {/* <AiFillRocket className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
+        <AiOutlineCode className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' />
         <ul className='flex min-w-[300px] justify-between mr-6 mt-4 mobile:hidden'>
           <li className='cursor-pointer hover:text-[#f97b8b]'>Home</li>
           <li className='cursor-pointer hover:text-[#f97b8b]'>About</li>

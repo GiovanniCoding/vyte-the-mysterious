@@ -7,16 +7,8 @@ export const Projects = () => {
 
         <h2 className="text-3xl font-bold mb-12 pb-4 text-center">Projects we are proud of</h2>
 
-        <div className="grid lg:grid-cols-3 gap-6 xl:gap-x-12">
+        <div className="grid gap-4 grid-cols-3">
 
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
