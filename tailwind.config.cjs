@@ -4,10 +4,6 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   content: ['./src/**/*.{html,js,jsx}'],
   theme: {
-    screens: {
-      'mobile': {'max': '640px'},
-      'desktop': {'min': '640px'}
-    },
     extend: {},
     colors: {
       'primary': '#353353',
@@ -21,6 +17,7 @@ module.exports = {
       yellow: colors.yellow,
       blue: colors.blue,
       purple: colors.purple,
+      violet: colors.violet,
     },
   },
   plugins: [],
