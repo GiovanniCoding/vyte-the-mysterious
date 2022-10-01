@@ -13,7 +13,7 @@ export const Navbar = ( ) => {
   }
 
   return (
-    <header className='fixed h-[70px] inset-0 bg-primary text-tprimary border-b-[1px] border-primaryl1'>
+    <header className='fixed h-[70px] inset-0 bg-primary text-tprimary border-b-[1px] border-primaryl1 z-10'>
       <nav className='flex justify-between center max-w-[900px] mx-auto mt-2'>
         {/* <TbRobot className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
         {/* <AiFillExperiment className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
