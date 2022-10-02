@@ -959,6 +959,10 @@ select {
   max-width: 56rem;
 }
 
+.max-w-\[901px\] {
+  max-width: 901px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1030,6 +1034,10 @@ select {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .rounded-full {

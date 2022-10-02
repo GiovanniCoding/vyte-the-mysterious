@@ -2,9 +2,9 @@ import { FaBeer, FaVaadin } from 'react-icons/fa';
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
 import 'react-vertical-timeline-component/style.min.css';
 
-export const WorkExperience = () => {
+export const WorkExperience = ({ WorkExperienceRef }) => {
   return (
-    <section className="py-8 bg-primary">
+    <section ref={ WorkExperienceRef } className="py-8 bg-primary">
       <h1 className="text-5xl pl-24 py-8 text-tprimary">Work Experience</h1>
       <VerticalTimeline
         lineColor="#A03E99"

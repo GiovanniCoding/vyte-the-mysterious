@@ -5,7 +5,7 @@ import { AiFillRocket } from 'react-icons/ai'
 import { AiOutlineCode } from 'react-icons/ai'
 import { useState } from 'react';
 
-export const Navbar = ( ) => {
+export const Navbar = ({ homeRef, aboutRef, SkillsRef, ProjectsRef, WorkExperienceRef, ContactRef }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const handleOnClick = () => {
@@ -17,15 +17,15 @@ export const Navbar = ( ) => {
       <nav className='flex justify-between center max-w-[900px] mx-auto mt-2'>
         {/* <TbRobot className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
         {/* <AiFillExperiment className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
-        <AiFillRocket className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' />
+        <AiFillRocket onClick={ () => { homeRef.current.scrollIntoView() } } className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' />
         {/* <AiOutlineCode className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
         <ul className='flex min-w-[420px] justify-between mr-6 mt-4 mobile:hidden'>
-          <li className='cursor-pointer hover:text-[#f97b8b]'>Home</li>
-          <li className='cursor-pointer hover:text-[#f97b8b]'>About</li>
-          <li className='cursor-pointer hover:text-[#f97b8b]'>Skills</li>
-          <li className='cursor-pointer hover:text-[#f97b8b]'>Projects</li>
-          <li className='cursor-pointer hover:text-[#f97b8b]'>Experience</li>
-          <li className='cursor-pointer hover:text-[#f97b8b]'>Contact</li>
+          <li onClick={ () => { homeRef.current.scrollIntoView() } } className='cursor-pointer hover:text-[#f97b8b]'>Home</li>
+          <li onClick={ () => { aboutRef.current.scrollIntoView() } } className='cursor-pointer hover:text-[#f97b8b]'>About</li>
+          <li onClick={ () => { SkillsRef.current.scrollIntoView() } } className='cursor-pointer hover:text-[#f97b8b]'>Skills</li>
+          <li onClick={ () => { ProjectsRef.current.scrollIntoView() } } className='cursor-pointer hover:text-[#f97b8b]'>Projects</li>
+          <li onClick={ () => { WorkExperienceRef.current.scrollIntoView() } } className='cursor-pointer hover:text-[#f97b8b]'>Experience</li>
+          <li onClick={ () => { ContactRef.current.scrollIntoView() } } className='cursor-pointer hover:text-[#f97b8b]'>Contact</li>
         </ul>
         <RiMenu3Line
           className='text-4xl mr-6 mt-3 desktop:hidden cursor-pointer'

@@ -1,8 +1,9 @@
 import profile from "../assets/profile-image.jpeg"
 
-export const About = () => {
+export const About = ( { aboutRef } ) => {
+
   return (
-    <div className="bg-[#F9F9FF] py-10">
+    <div ref={ aboutRef } className="bg-[#F9F9FF] py-10">
       <h1 className="text-5xl pl-24 pb-8">About</h1>
       <div className="flex justify-center mx-4">
         <div className="flex mobile:flex-col mobile:items-center gap-4">

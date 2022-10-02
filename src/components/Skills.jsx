@@ -37,9 +37,9 @@ import { RiGitlabFill } from 'react-icons/ri';
 import { AiOutlineConsoleSql } from 'react-icons/ai';
 import { GrMysql } from 'react-icons/gr';
 
-export const Skills = () => {
+export const Skills = ({ SkillsRef }) => {
   return (
-    <section className='bg-primary text-tprimary py-10'>
+    <section ref={ SkillsRef } className='bg-primary text-tprimary py-10'>
       <div className='text-5xl pl-24 pb-8'>Skills</div>
       <div className="flex flex-col max-w-4xl mx-auto px-4 mt-2 gap-1">
         <div className="flex justify-between gap-4 my-4">

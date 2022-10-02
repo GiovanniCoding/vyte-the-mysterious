@@ -2,9 +2,9 @@ import { ProjectCard } from "./ProjectCard"
 import { FaFire, FaSun } from 'react-icons/fa';
 import { AiTwotoneExperiment } from 'react-icons/ai';
 
-export const Projects = () => {
+export const Projects = ({ ProjectsRef }) => {
   return (
-    <section className="px-6 py-12 bg-tprimary">
+    <section ref={ ProjectsRef } className="px-6 py-12 bg-tprimary">
 
       <h2 className="text-5xl pl-24 pb-16 text-primary">Projects</h2>
 

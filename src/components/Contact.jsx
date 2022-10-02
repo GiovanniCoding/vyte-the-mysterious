@@ -1,8 +1,8 @@
 import { BsBicycle } from 'react-icons/bs';
 
-export const Contact = () => {
+export const Contact = ({ ContactRef }) => {
   return (
-    <div className='bg-tprimary'>
+    <section ref={ ContactRef } className='bg-tprimary'>
       <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 text-primary">
         <div className="flex flex-col justify-between">
           <div className="space-y-2">
@@ -25,6 +25,6 @@ export const Contact = () => {
           <button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-violet-400 dark:text-gray-900">Send Message</button>
         </form>
       </div>
-    </div>
+    </section>
   )
 }

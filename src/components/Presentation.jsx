@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import profile from "../assets/profile-image.jpeg"
 import Typical from 'react-typical'
 
-export const Presentation = ( { home } ) => {
+export const Presentation = ( { homeRef } ) => {
   const handleGithubClick = () => {
     console.log('Visitar Github')
   }
@@ -11,7 +11,7 @@ export const Presentation = ( { home } ) => {
   }
 
   return (
-    <div ref={ home } className='bg-primary pt-[70px] h-[500px] text-tprimary'>
+    <div ref={ homeRef } className='bg-primary pt-[70px] h-[500px] text-tprimary'>
       <div className="flex flex-col items-center mt-24">
         <img
           src={ profile }
