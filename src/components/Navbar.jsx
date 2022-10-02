@@ -17,8 +17,8 @@ export const Navbar = ( ) => {
       <nav className='flex justify-between center max-w-[900px] mx-auto mt-2'>
         {/* <TbRobot className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
         {/* <AiFillExperiment className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
-        {/* <AiFillRocket className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
-        <AiOutlineCode className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' />
+        <AiFillRocket className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' />
+        {/* <AiOutlineCode className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
         <ul className='flex min-w-[420px] justify-between mr-6 mt-4 mobile:hidden'>
           <li className='cursor-pointer hover:text-[#f97b8b]'>Home</li>
           <li className='cursor-pointer hover:text-[#f97b8b]'>About</li>

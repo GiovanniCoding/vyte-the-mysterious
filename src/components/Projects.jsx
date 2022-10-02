@@ -8,7 +8,9 @@ export const Projects = () => {
 
       <h2 className="text-5xl pl-24 pb-16 text-primary">Projects</h2>
 
-      <div className="grid grid-cols-3 gap-x-6 gap-y-12">
+      <h1 className="text-6xl w-40 text-primary mx-auto">Soon...</h1>
+
+      {/* <div className="grid mobile:grid-cols-1 grid-cols-3 gap-x-6 gap-y-12">
 
         <div className="mb-6 lg:mb-0">
           <div className="relative block bg-white rounded-lg shadow-lg">
@@ -174,7 +176,7 @@ export const Projects = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
 
     </section>
   )
