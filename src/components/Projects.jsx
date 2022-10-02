@@ -4,11 +4,11 @@ import { AiTwotoneExperiment } from 'react-icons/ai';
 
 export const Projects = () => {
   return (
-    <section className="px-6 py-12 text-gray-800">
+    <section className="px-6 py-12 bg-tprimary">
 
-      <h2 className="text-5xl pl-24 py-8">Some Projects I've Worked On</h2>
+      <h2 className="text-5xl pl-24 pb-16 text-primary">Some Projects I've Worked On</h2>
 
-      <div className="grid lg:grid-cols-3 gap-6 xl:gap-x-12">
+      <div className="grid grid-cols-3 gap-x-6 gap-y-12">
 
         <div className="mb-6 lg:mb-0">
           <div className="relative block bg-white rounded-lg shadow-lg">

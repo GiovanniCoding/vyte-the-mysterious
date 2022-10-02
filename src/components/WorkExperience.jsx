@@ -4,15 +4,17 @@ import 'react-vertical-timeline-component/style.min.css';
 
 export const WorkExperience = () => {
   return (
-    <section className="bg-primary text-tprimary py-8">
-      <h1 className="text-5xl pl-24 py-8">Work Experience</h1>
-      <VerticalTimeline>
+    <section className="py-8 bg-primary">
+      <h1 className="text-5xl pl-24 py-8 text-tprimary">Work Experience</h1>
+      <VerticalTimeline
+        lineColor="#A03E99"
+      >
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          contentStyle={{ background: '#A03E99', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid #A03E99' }}
           date="2022 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: '#A03E99', color: '#fff' }}
           icon={<FaBeer />}
         >
           <h3 className="vertical-timeline-element-title">B2B Integrator</h3>
@@ -23,10 +25,10 @@ export const WorkExperience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          contentStyle={{ background: '#A03E99', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  #A03E99' }}
           date="2021 - 2022"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: '#A03E99', color: '#fff' }}
           icon={<FaBeer />}
         >
           <h3 className="vertical-timeline-element-title">Developer</h3>
@@ -37,10 +39,10 @@ export const WorkExperience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          contentStyle={{ background: '#A03E99', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  #A03E99' }}
           date="2018 - 2019"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: '#A03E99', color: '#fff' }}
           icon={<FaBeer />}
         >
           <h3 className="vertical-timeline-element-title">Developer</h3>
