@@ -36,12 +36,12 @@ export const Navbar = ({ homeRef, aboutRef, SkillsRef, ProjectsRef, WorkExperien
         isMenuOpen
         &&
         <ul className='bg-primary py-3'>
-          <li className='cursor-pointer py-1 pl-8'>Home</li>
-          <li className='cursor-pointer py-1 pl-8'>About</li>
-          <li className='cursor-pointer py-1 pl-8'>Skills</li>
-          <li className='cursor-pointer py-1 pl-8'>Projects</li>
-          <li className='cursor-pointer py-1 pl-8'>Experience</li>
-          <li className='cursor-pointer py-1 pl-8'>Contact</li>
+          <li onClick={ () => { homeRef.current.scrollIntoView() } } className='cursor-pointer py-1 pl-8'>Home</li>
+          <li onClick={ () => { aboutRef.current.scrollIntoView() } } className='cursor-pointer py-1 pl-8'>About</li>
+          <li onClick={ () => { SkillsRef.current.scrollIntoView() } } className='cursor-pointer py-1 pl-8'>Skills</li>
+          <li onClick={ () => { ProjectsRef.current.scrollIntoView() } } className='cursor-pointer py-1 pl-8'>Projects</li>
+          <li onClick={ () => { WorkExperienceRef.current.scrollIntoView() } } className='cursor-pointer py-1 pl-8'>Experience</li>
+          <li onClick={ () => { ContactRef.current.scrollIntoView() } } className='cursor-pointer py-1 pl-8'>Contact</li>
         </ul>
       }
     </header>
