@@ -40,7 +40,7 @@ import { GrMysql } from 'react-icons/gr';
 export const Skills = () => {
   return (
     <section className='bg-primary text-tprimary py-10'>
-      <div className='text-5xl pl-24 pb-8'>Some of My Skills</div>
+      <div className='text-5xl pl-24 pb-8'>Skills</div>
       <div className="flex flex-col mt-2 gap-1">
         <div className="flex justify-center gap-16 my-4">
             <SiPython className="text-[4rem]" />

@@ -19,10 +19,13 @@ export const Navbar = ( ) => {
         {/* <AiFillExperiment className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
         {/* <AiFillRocket className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' /> */}
         <AiOutlineCode className='cursor-pointer ml-6 mt-1 text-5xl hover:text-[#f97b8b]' />
-        <ul className='flex min-w-[300px] justify-between mr-6 mt-4 mobile:hidden'>
+        <ul className='flex min-w-[420px] justify-between mr-6 mt-4 mobile:hidden'>
           <li className='cursor-pointer hover:text-[#f97b8b]'>Home</li>
           <li className='cursor-pointer hover:text-[#f97b8b]'>About</li>
+          <li className='cursor-pointer hover:text-[#f97b8b]'>Skills</li>
+          <li className='cursor-pointer hover:text-[#f97b8b]'>Projects</li>
           <li className='cursor-pointer hover:text-[#f97b8b]'>Experience</li>
+          <li className='cursor-pointer hover:text-[#f97b8b]'>Contact</li>
         </ul>
         <RiMenu3Line
           className='text-4xl mr-6 mt-3 desktop:hidden cursor-pointer'
@@ -35,7 +38,10 @@ export const Navbar = ( ) => {
         <ul className='bg-primary py-3'>
           <li className='cursor-pointer py-1 pl-8'>Home</li>
           <li className='cursor-pointer py-1 pl-8'>About</li>
+          <li className='cursor-pointer py-1 pl-8'>Skills</li>
+          <li className='cursor-pointer py-1 pl-8'>Projects</li>
           <li className='cursor-pointer py-1 pl-8'>Experience</li>
+          <li className='cursor-pointer py-1 pl-8'>Contact</li>
         </ul>
       }
     </header>

@@ -6,7 +6,7 @@ export const Projects = () => {
   return (
     <section className="px-6 py-12 bg-tprimary">
 
-      <h2 className="text-5xl pl-24 pb-16 text-primary">Some Projects I've Worked On</h2>
+      <h2 className="text-5xl pl-24 pb-16 text-primary">Projects</h2>
 
       <div className="grid grid-cols-3 gap-x-6 gap-y-12">
 
