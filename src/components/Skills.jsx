@@ -41,8 +41,8 @@ export const Skills = () => {
   return (
     <section className='bg-primary text-tprimary py-10'>
       <div className='text-5xl pl-24 pb-8'>Skills</div>
-      <div className="flex flex-col mt-2 gap-1">
-        <div className="flex justify-center gap-16 my-4">
+      <div className="flex flex-col max-w-4xl mx-auto px-4 mt-2 gap-1">
+        <div className="flex justify-between gap-4 my-4">
             <SiPython className="text-[4rem]" />
             <SiNumpy className="text-[4rem]" />
             <SiPandas className="text-[4rem]" />
@@ -51,7 +51,7 @@ export const Skills = () => {
             <SiAmazonaws className="text-[4rem]" />
             <SiGithub className="text-[4rem]" />
         </div>
-        <div className="flex justify-center gap-16 my-4">
+        <div className="flex justify-between gap-4 my-4">
           <SiKeras className="text-[3rem]" />
           <SiPytorch className="text-[3rem]" />
           <SiJavascript className="text-[3rem]" />
@@ -60,7 +60,7 @@ export const Skills = () => {
           <SiKubernetes className="text-[3rem]" />
           <AiOutlineConsoleSql className="text-[3rem]" />
         </div>
-        <div className="flex justify-center gap-16 my-4">
+        <div className="flex justify-between gap-4 my-4">
           <SiAmazondynamodb className="text-[2.5rem]" />
           <SiFastapi className="text-[2.5rem]" />
           <SiJupyter className="text-[2.5rem]" />
@@ -69,7 +69,7 @@ export const Skills = () => {
           <SiPostgresql className="text-[2.5rem]" />
           <SiMongodb className="text-[2.5rem]" />
         </div>
-        <div className="flex justify-center gap-16 my-4">
+        <div className="flex justify-between gap-4 my-4">
           <SiLinux className="text-[2rem]" />
           <SiDjango className="text-[2rem]" />
           <SiGoland className="text-[2rem]" />
@@ -78,7 +78,7 @@ export const Skills = () => {
           <GrMysql className="text-[2rem]" />
           <SiTailwindcss className="text-[2rem]" />
         </div>
-        <div className="flex justify-center gap-16 my-4">
+        <div className="flex justify-between gap-4 my-4">
           <SiNodedotjs className="text-[1.5rem]" />
           <SiSlack className="text-[1.5rem]" />
           <SiCss3 className="text-[1.5rem]" />
