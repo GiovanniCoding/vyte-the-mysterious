@@ -31,7 +31,7 @@ export const Projects = ({ ProjectsRef }) => {
                 <AiFillGithub /> Github
               </div>
               <p className="mb-4 pb-2">
-                Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat vulputate. Ut vulputate est non quam dignissim elementum. Donec a ullamcorper diam.
+                Web application that allow you to receive recommendations for nintendo switch games that you might like based on games of your choice.
               </p>
             </div>
           </div>
