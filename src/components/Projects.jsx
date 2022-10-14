@@ -1,6 +1,6 @@
 import { ProjectCard } from "./ProjectCard"
 import { FaFire, FaSun } from 'react-icons/fa';
-import { AiFillGithub } from 'react-icons/ai';
+import { AiFillGithub, AiFillCodepenCircle } from 'react-icons/ai';
 import nintendoSwitchGamesRecommendation from '../assets/projects/nintendo-switch-recommendation.png';
 
 export const Projects = ({ ProjectsRef }) => {
@@ -18,18 +18,27 @@ export const Projects = ({ ProjectsRef }) => {
                 className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
                 data-mdb-ripple="true" data-mdb-ripple-color="light">
                 <img src={nintendoSwitchGamesRecommendation} className="w-full" />
-                <a href="#!">
-                  <div
-                    className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                    style={{"backgroundColor": "rgba(251, 251, 251, 0.15)"}}></div>
-                </a>
+                <div
+                  className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
+                  style={{"backgroundColor": "rgba(251, 251, 251, 0.15)"}}></div>
               </div>
             </div>
             <div className="p-6">
               <h5 className="text-lg font-bold mb-3">Nintendo Switch Games Recommendation</h5>
-              <div className="mb-3 text-blue-500 font-medium text-sm flex items-center justify-center">
-                <AiFillGithub /> Github
+
+              <div className="flex gap-3 justify-center">
+                <div
+                onClick={ () => { window.location.href = "https://github.com/GiovanniCoding/nyzyss-the-eternal-frontend" } }
+                className="mb-3 text-blue-500 font-medium text-sm flex items-center justify-center cursor-pointer">
+                  <AiFillGithub className="mr-1" /> Github
+                </div>
+                <div
+                onClick={ () => { window.location.href = "https://github.com/GiovanniCoding/nyzyss-the-eternal-frontend" } }
+                className="mb-3 text-yellow-700 font-medium text-sm flex items-center justify-center cursor-pointer">
+                  <AiFillCodepenCircle className="mr-1" /> Live Demo
+                </div>
               </div>
+
               <p className="mb-4 pb-2">
                 Web application that allow you to receive recommendations for nintendo switch games that you might like based on games of your choice.
               </p>
